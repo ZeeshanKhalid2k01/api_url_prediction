@@ -1,0 +1,5 @@
+scikit-learn==1.2.2
+xgboost==1.7.4
+lightgbm==3.3.5
+python-whois==0.8.0
+
