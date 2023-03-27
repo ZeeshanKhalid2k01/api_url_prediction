@@ -1,7 +1,8 @@
-# api_url_prediction
+# Url Prediction Api
 - Clone the repo
 ```
 git clone https://github.com/CodeNinjaUsman/api_url_prediction
+cd api_url_prediction
 ```
 - Activate conda environment
 - Install requirements
