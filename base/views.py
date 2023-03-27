@@ -321,19 +321,19 @@ def predict(data_str):
 
     import pickle
 
-    with open('models\lgb_model.pkl', 'rb') as f:
+    with open('models\\lgb_model.pkl', 'rb') as f:
         lgb_model = pickle.load(f)
 
     # Load XGBoost model
-    with open('models\xgboost_model.pkl', 'rb') as f:
+    with open('models\\xgboost_model.pkl', 'rb') as f:
         xgb_model = pickle.load(f)
 
     # Load Gradient Boosting model
-    with open('models\gbdt_model.pkl', 'rb') as f:
+    with open('models\\gbdt_model.pkl', 'rb') as f:
         gbdt_model = pickle.load(f)
 
     # Load random forest model
-    with open('models\random_forest_model.pkl', 'rb') as f:
+    with open('models\\random_forest_model.pkl', 'rb') as f:
         rf_model = pickle.load(f)
 
     y_pred_lgb = lgb_model.predict(X)
