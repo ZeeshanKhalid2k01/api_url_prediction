@@ -283,6 +283,8 @@ def predict(data_str):
             "UPDATE users SET", "DELETE FROM users WHERE id=", "DROP TABLE", "DROP DATABASE",
             "CREATE DATABASE", "CREATE TABLE", "ALTER TABLE", "TRUNCATE TABLE", "UNION SELECT",
             "HAVING 1=1", "HAVING 1=0", "LIKE '%", "LIKE '%admin%'",
+            
+            "/..","../"
 
             # #cmd via usman
             # 'tracert','ping','nmap','ncat','nikto','ssh','trace'
